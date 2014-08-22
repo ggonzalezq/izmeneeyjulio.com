@@ -935,7 +935,7 @@ OverlayLoader.prototype.createOverlay = function () {
 
 	//GCC
 
-		var BigDay = new Date("25 Jul 2014, 15:30:00");
+		var BigDay = new Date("8 Nov 2014, 18:00:00");
 		var msPerDay = 24 * 60 * 60 * 1000 ;
 
 
@@ -962,9 +962,9 @@ OverlayLoader.prototype.createOverlay = function () {
 					   "<div class='counter'><div class='daysleft'>" + minsLeft + "</div><h5>Minutes</h5></div>" ;*/
 
 			var timeString = "" + 
-					   "<div class='counterwrapper'><div class='aligncenter'><div class='counter'><div class='daysleft'>" + daysLeft + "</div><h5>Days</h5></div>" + 
-					   "<div class='counter'><div class='daysleft'>" + hrsLeft + "</div><h5>Hours</h5></div>" + 
-					   "<div class='counter'><div class='daysleft'>" + minsLeft + "</div><h5>Minutes</h5></div></div><div class='remaining'>Remaining...</div></div>" ;
+					   "<div class='counterwrapper'><div class='aligncenter'><div class='counter'><div class='daysleft'>" + daysLeft + "</div><h5>Dias</h5></div>" + 
+					   "<div class='counter'><div class='daysleft'>" + hrsLeft + "</div><h5>Horas</h5></div>" + 
+					   "<div class='counter'><div class='daysleft'>" + minsLeft + "</div><h5>Minutos</h5></div></div><div class='remaining'>El gran día se esta acercando...</div></div>" ;
 
 			$('#timer').html(timeString);
 		});
