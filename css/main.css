@@ -614,6 +614,14 @@ h6 {
 	.thetimeline .post {
 
 	}
+        
+	.thetimeline .post ul {
+            margin:0;
+            padding:0;
+	}
+        
+        
+        
 	.thetimeline .post.odd p {
 		text-align: right;
 	}
@@ -638,7 +646,7 @@ h6 {
 		text-shadow:none;
 		color: #fff;
 	}
-
+        /*
 	.thetimeline .post-box:before {
 		-moz-border-bottom-colors: none;
 	    	-moz-border-left-colors: none;
@@ -661,6 +669,7 @@ h6 {
 		-webkit-transform:rotate(-139deg); /* Safari and Chrome */
 		width: 15px;
 	}
+        /*
 	.thetimeline .post-box:after {
 		background-clip: padding-box;
 	    	background-color: #F5F5F5;
@@ -674,6 +683,7 @@ h6 {
 	    	top: 18px;
 	    	width: 20px;
 	}
+        */
 	.thetimeline .post.even .post-box:after {
 		right: auto;
 		left: -53px;
@@ -687,7 +697,6 @@ h6 {
 	.theyear {
 		width: 100%;
 		overflow: hidden;
-		text-align: center;
 	}
 	.post-box {
 		background-clip: padding-box;
