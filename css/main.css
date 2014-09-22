@@ -1136,13 +1136,12 @@ h6 {
 	.hotels .readmore, .attractions .readmore {
 		border-radius: 8px;
 	    	color: #FFFFFF;
-	    	display: block;
+	    	display: inline-block;
 	    	font-size: 13px;
 	    	margin-top: 10px;
 	    	padding: 0 12px;
 	    	text-align: center;
 	   	 text-transform: uppercase;
-	    	width: 80px;
 	    	line-height: 23px;
 	    	-webkit-transition:all 0.2s ease-in;  
 	   	-moz-transition:all 0.2s ease-in;  
