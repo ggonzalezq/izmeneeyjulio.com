@@ -1,7 +1,7 @@
 <?php
     //we need to get our variables first
     
-	$email_to =   'your-email-address@mydomain.com'; //the address to which the email will be sent
+	$email_to =   'izmeneeyjulio@gmail.com'; //the address to which the email will be sent
 	$contact_name     =   $_POST['contactname'];  
 	$contact_email    =   $_POST['contactemail'];
     $contact_message  =   $_POST['contactmessage'];

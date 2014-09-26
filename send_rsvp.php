@@ -1,7 +1,7 @@
 <?php
     //we need to get our variables first
     
-	$email_to =   'your-email-address@mydomain.com'; //the address to which the email will be sent
+	$email_to =   'izmeneeyjulio@gmail.com'; //the address to which the email will be sent
 	$name     =   $_POST['rsvp-name'];  
 	$email    =   $_POST['rsvp-email'];
 	$extra    =   $_POST['rsvp-extra'];
